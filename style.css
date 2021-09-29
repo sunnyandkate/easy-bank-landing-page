@@ -10,12 +10,9 @@ body{
 	font-family:'Public Sans', sans-serif;
 	font-size:1.125rem;
 	color:hsl(233, 8%, 62%);
-	
 }
 .main-container{
-	background:hsl(220, 16%, 96%)
-	
-	
+	background:hsl(220, 16%, 96%);
 }
 /*nav*/
 nav{
@@ -29,9 +26,7 @@ nav{
 	z-index:3;
 }
 .menu, .btn-hide{
-	
-	display:none;
-		
+	display:none;	
 }
 .menu a{
 	color:hsl(233, 8%, 62%);
@@ -43,17 +38,11 @@ nav{
 .menu a:after{
 	transition:all .4s ease-in;
 }
-	
-	
-
 .menu a:hover{
 	color:hsl(233, 26%, 24%);
-	position:relative;
-	
+	position:relative;	
 }
-
 .menu a:hover:after{
-	
 	content:'';
 	position:absolute;
 	bottom:-5px;
@@ -64,10 +53,7 @@ nav{
 	background:linear-gradient(to right, hsl(192, 70%, 51%), hsl(136, 65%, 51%) );
 	animation:fadeIn;
 	animation-duration:2s;
-	
 }
-
-
 .btnRequest{
 	color:hsl(0, 0%, 100%);
 	background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%) );
@@ -83,17 +69,13 @@ nav{
 	display:inline-block;
 }
 .mobile-menu span{
-	
 	height:3px;
 	width:15px;
 	background:hsl(233, 26%, 24%);
 	display:block;
 	margin:3px;
-	
 }
-
 .menuContent{
-	
 	background:hsl(0, 0%, 100%);
 	display:block;
 	border-radius: 10px;
@@ -106,7 +88,6 @@ nav{
 	right: 5%;
 	text-align: center;
 	transition:all .3s ease-in;
-	
 }
 .menuContent a{
 	color:hsl(233, 26%, 24%);
@@ -115,7 +96,6 @@ nav{
 .open >.topLine{
 	transform: rotate(45deg);
 	transform-origin:left bottom;
-	
 }
 .open >.middleLine{
 	opacity:0;
@@ -123,9 +103,7 @@ nav{
 .open >.bottomLine{
 	transform:rotate(-45deg);
 	transform-origin: left top;
-	
 }
-
 /*main content*/
 .overlay{
 	height:100vh;
@@ -139,14 +117,12 @@ nav{
 	right: 0;
 	bottom: 0;
 	z-index:3;
-	
 }
 .description-container{
 	width:100%;
 	height:30em;
 	background:hsl(0, 0%, 100%);
 	padding-bottom:3em;
-	
 }
 .main-img{
 	background-image:url("images/bg-intro-mobile.svg");
@@ -156,7 +132,6 @@ nav{
 	width:100%;
 	height:50%;
 	text-align:center;
-	
 }
 .image-mockup{
 	height: auto;
@@ -185,49 +160,34 @@ nav{
 /*about container*/
 
 .about-container{
-	
 	text-align: center;
 	width: 90%;
 	margin: auto;
 	padding-top:2em;
 	padding-bottom:2em;
-	
-	
 }
 .col{
-	
 	padding-top:2em;
 	padding-bottom:2em;
-	
 }
-
-.about-container h2, .col h5{
-	
+.about-container h2, .col h5{	
 	color:hsl(233, 26%, 24%);
 	font-weight:400;
-	
 }
-
 .col h5{
 	font-size:1em;
-	
-	
 }
 .col p, .about-container p{
-	
 	font-size:.9em;
-	
 }
 
 /*article container*/
 .article-container{
 	background: hsl(0, 0%, 98%);
 	padding:2em;
-	
 }
 .article-text{
 	padding:1em;
-	
 }
 .article-title{
 	text-align:center;
@@ -241,11 +201,9 @@ nav{
 	margin-bottom:1em;
 }
 .article-col img{
-	
 	width:100%;
 	border-top-left-radius:5px;
-	border-top-right-radius:5px;
-	
+	border-top-right-radius:5px;	
 }
 .article-col h4{
 	font-weight:400;
@@ -258,34 +216,21 @@ nav{
 	text-decoration:none;
 	color:hsl(233, 8%, 62%);
 	font-size:.7em;
-	
-	
 }
-
-
-
-
-
 /*footer*/
-
 footer{
-	
 	background:hsl(233, 26%, 24%);
 	color:hsl(220, 16%, 96%);
 	padding:2em;
 }
 .footer-container{
-	
 	text-align:center;
-	
 }
-
 .footer-menu a{
 	color:hsl(0, 0%, 100%);
 	text-decoration:none;
 	font-size:.9em;
 	display:block;
-	
 }
 .social-icons{
 	padding:1em;
@@ -296,7 +241,6 @@ footer{
 }
 .footer-menu a{
 	padding:.5em;
-	
 }
 .footer-btn{
 	width: 40%;
@@ -307,12 +251,8 @@ footer p{
 	font-size:.8em;
 	color:hsl(233, 8%, 62%);
 }
-
 .attribution{
-	
 	margin-top:3em;
-	
-	
 }
 @media(min-width:700px){
 	
@@ -332,46 +272,31 @@ footer p{
 		background-image:url("images/bg-intro-desktop.svg");
 		background-repeat:no-repeat;
 		height:100%;
-		
-}
+	}
 	.image-mockup{
-		
 		top:0;
 		right:-10%;
-		
 	}
 	.description{
 		height:100%;
 		width:50%;
 		text-align:left;
 		padding:3em;
-		
 	}
 	.description > .text{
 		margin-left:0;
 	}
-	
-	
-	.row{
-		
+	.row{	
 		display:flex;
-		flex-direction:row;
-		
-		
-		
+		flex-direction:row;	
 	}
 	.col, .about-container h2, .about-container p{
-		
 		text-align:left;
-		
 	}
 	.about-container p{
 		width:60%;
-		
 	}
-	
 	.col p{
-		
 		font-size:.8em;
 	}
 	.article-title{
@@ -381,12 +306,9 @@ footer p{
 		margin:.5em;
 	}
 	footer{
-		
 		padding:2em;
-		
 	}
 	.footer-menu{
-		
 		text-align:left;
 	}
 	.footer-container{
@@ -399,23 +321,13 @@ footer p{
 		display:inline-block;
 		padding-left:1em;
 		padding-right:1em;
-	
-	
 	}
 	.social-icons{
 		padding-top:2.5em;
 	}
 	.footer-btn{
-		
-		
 		width:80%;
 	}
-}
-
-
-
-.img{
-	
 }
 
 
